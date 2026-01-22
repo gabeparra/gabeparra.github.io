@@ -1,3 +1,5 @@
+<html>
+<body>
 <H1>Pizza Ordering Form</H1>
 <form action="test">
 <H2>Contact Information</H2>
@@ -5,7 +7,8 @@ Name: <input name=name><br>
 Phone: <input name=phone><br>
 Email: <input name=email><br>
 <H2>Select Pizza Size</H2>
-Pizza Size: <select>
+Pizza Size: 
+<select>
 <option>Medium
 <option>Large
 <option>XLarge
@@ -22,6 +25,9 @@ Pizza Size: <select>
 <input type="checkbox" name="toppings">Peppers
 <input type="checkbox" name="toppings">Onions
 <h2>Additional Instructions</h2>
-<textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100></textarea><br>
+<textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100>
+</textarea><br>
 <input type="Submit" Value="submit">
 </form>
+</body>
+</html>
