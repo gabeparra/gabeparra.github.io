@@ -10,8 +10,18 @@ Pizza Size: <select>
 <option>Large
 <option>XLarge
 </select><br>
+<h2>Select Sauce</h2>
 <input type="radio" name="sauce"> Marinara
 <input type="radio" name="sauce"> Ranch
 <input type="radio" name="sauce"> No Sauce
+<h2>Select Toppings</h2>
+<input type="checkbox" name="toppings">Pepperoni
+<input type="checkbox" name="toppings">Sausage
+<input type="checkbox" name="toppings">Mushrooms
+<input type="checkbox" name="toppings">Pineapple
+<input type="checkbox" name="toppings">Peppers
+<input type="checkbox" name="toppings">Onions
+<h2>Additional Instructions</h2>
+<textarea wrap="virtual" name="additional" ></textarea><br>
 <input type="Submit" Value="submit">
 </form>
