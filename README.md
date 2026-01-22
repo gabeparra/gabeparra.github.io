@@ -18,12 +18,12 @@ Pizza Size:
 <input type="radio" name="sauce"> Ranch
 <input type="radio" name="sauce"> No Sauce
 <h2>Select Toppings</h2>
-<input type="checkbox" name="toppings">Pepperoni
-<input type="checkbox" name="toppings">Sausage
-<input type="checkbox" name="toppings">Mushrooms
-<input type="checkbox" name="toppings">Pineapple
-<input type="checkbox" name="toppings">Peppers
-<input type="checkbox" name="toppings">Onions
+<input type="checkbox" name="toppings">Pepperoni 
+<input type="checkbox" name="toppings">Sausage 
+<input type="checkbox" name="toppings">Mushrooms 
+<input type="checkbox" name="toppings">Pineapple 
+<input type="checkbox" name="toppings">Peppers 
+<input type="checkbox" name="toppings">Onions 
 <h2>Additional Instructions</h2>
 <textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100>
 </textarea><br>
