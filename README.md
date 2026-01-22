@@ -22,6 +22,6 @@ Pizza Size: <select>
 <input type="checkbox" name="toppings">Peppers
 <input type="checkbox" name="toppings">Onions
 <h2>Additional Instructions</h2>
-<textarea wrap="virtual" name="additional" ></textarea><br>
+<textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100></textarea><br>
 <input type="Submit" Value="submit">
 </form>
