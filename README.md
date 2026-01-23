@@ -36,7 +36,7 @@ Pizza Size:
 <h2>Additional Instructions</h2>
 <textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100>
 </textarea><br>
-<input type="Submit" Value="submit">
+<input type="Submit" Value="Submit">
 </form>
 List of my favorite games
 <table border="1">
