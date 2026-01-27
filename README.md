@@ -13,9 +13,9 @@ Pizza Size:
 <option value="XLarge">XLarge</option>
 </select><br>
 <h2>Select Sauce</h2>
-<input type="radio" name="sauce" required> Marinara
-<input type="radio" name="sauce" required> Ranch
-<input type="radio" name="sauce" required> No Sauce
+<input type="radio" name="sauce" value="marinara" required> Marinara
+<input type="radio" name="sauce" value="ranch" required> Ranch
+<input type="radio" name="sauce" value="nosauce" required> No Sauce
 <h2>Select Toppings</h2>
 <table>
 <tr>
@@ -32,7 +32,7 @@ Pizza Size:
 </tr>
 </table>
 <h2>Additional Instructions</h2>
-<textarea wrap="virtual" name="additional" rows=2 cols=20 MAXLENGTH=100>
+<textarea name="additional" rows="2" cols="20" maxlength="100">
 </textarea><br>
 <input type="Submit" Value="Submit">
 </form>
