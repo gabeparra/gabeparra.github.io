@@ -1,5 +1,3 @@
-<html>
-<body>
 <H1>Pizza Ordering Form</H1>
 <form action="test">
 <H2>Contact Information</H2>
@@ -68,5 +66,3 @@ List of my favorite games
         <td colspan="3">Count: 4</td>
     </tr>
 </table>
-</body>
-</html>
