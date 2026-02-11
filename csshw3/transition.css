@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+nav#menuItems {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+nav button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-left: 4px solid red;
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: #0000cc;
+}
+
+#jumpMenu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: goldenrod;
+}
+
+#recentArticles:hover + #jumpMenu,
+#jumpMenu:hover {
+  display: block;
+}
+
+#jumpMenu li {
+  padding: 0;
+}
+
+#jumpMenu a {
+  display: block;
+  padding: 4px 20px;
+  text-decoration: none;
+  color: blue;
+  font-size: 13px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+#jumpMenu a:hover {
+  color: white;
+  background-color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+header p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  color: #aaa;
+  overflow: hidden;
+  max-height: 500px;
+  transition: color 2s, max-height 2s;
+}
+
+article:hover {
+  color: #000;
+  max-height: 2000px;
+}
+
+article h2 {
+  font-size: 18px;
+  color: #000;
+}
+
+article p {
+  text-align: justify;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+article p:first-of-type::first-letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+
+article p:last-of-type a[href*="google"]::after {
+  content: url("arrow.png");
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#thanks {
+  text-align: right;
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+#thanks a {
+  border: 3px solid blue;
+  padding: 15px 25px;
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+address div {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px 10px;
+}
+
+address a {
+  color: lightblue;
+}
