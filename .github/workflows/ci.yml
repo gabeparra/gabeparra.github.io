@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify redirect targets
+        run: |
+          grep -q 'https://gabrielparra.dev/' index.html
+          grep -q 'https://gabrielparra.dev/' 404.html
